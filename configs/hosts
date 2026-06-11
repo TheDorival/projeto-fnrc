@@ -1,0 +1,18 @@
+127.0.0.1  localhost
+127.0.1.1  <hostname-curto-desta-vm>
+
+192.168.26.17  g2-pc1-vm1.grupo2-bsi-26-1.maceio.lab  g2-pc1-vm1
+192.168.26.18  g2-pc1-vm2.grupo2-bsi-26-1.maceio.lab  g2-pc1-vm2
+192.168.26.19  g2-pc2-vm1.grupo2-bsi-26-1.maceio.lab  g2-pc2-vm1
+192.168.26.20  g2-pc2-vm2.grupo2-bsi-26-1.maceio.lab  g2-pc2-vm2
+192.168.26.21  g2-pc3-vm1.grupo2-bsi-26-1.maceio.lab  g2-pc3-vm1
+192.168.26.22  g2-pc3-vm2.grupo2-bsi-26-1.maceio.lab  g2-pc3-vm2
+192.168.26.23  g2-pc4-vm1.grupo2-bsi-26-1.maceio.lab  g2-pc4-vm1
+192.168.26.24  g2-pc4-vm2.grupo2-bsi-26-1.maceio.lab  g2-pc4-vm2
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters

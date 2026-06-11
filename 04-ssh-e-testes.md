@@ -28,11 +28,11 @@ sudo systemctl start ssh
 
 ## 2. Parâmetros de Conexão
 
-| Parâmetro | Valor |
-|:---|:---|
-| Porta SSH | `22` (padrão) |
-| Autenticação | Senha |
-| Usuários disponíveis | `adminifal`, `daniel.lage`, `iago.henrique`, `gabriel.cruz`, `leonardo.moreira` |
+| Parâmetro            | Valor                                                                               |
+| :------------------- | :---------------------------------------------------------------------------------- |
+| Porta SSH            | `22` (padrão)                                                                       |
+| Autenticação         | Senha                                                                               |
+| Usuários disponíveis | `administrador`, `daniel.lage`, `iago.henrique`, `gabriel.cruz`, `leonardo.moreira` |
 
 ---
 
@@ -74,3 +74,5 @@ ssh leonardo.moreira@g2-pc3-vm1.grupo2-bsi-26-1.maceio.lab
 ```
 
 > Evidências e tabela de resultados em [05-testes-validacao.md](05-testes-validacao.md).
+
+Proxima etapa: [05-testes-validacao.md](05-testes-validacao.md)

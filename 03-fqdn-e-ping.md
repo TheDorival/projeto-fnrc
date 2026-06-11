@@ -20,18 +20,18 @@ g2-pc1-vm1.grupo2-bsi-26-1.maceio.lab
 
 ## 2. Domínio do Grupo 2
 
-| Campo | Valor |
-|:---|:---|
-| Grupo | `grupo2` |
-| Turma | `bsi-26-1` |
-| TLD local | `maceio.lab` |
-| Domínio (zona) | `grupo2.bsi-26-1.maceio.lab` |
+| Campo                 | Valor                        |
+| :-------------------- | :--------------------------- |
+| Grupo                 | `grupo2`                     |
+| Turma                 | `bsi-26-1`                   |
+| TLD local             | `maceio.lab`                 |
+| Domínio (zona)        | `grupo2.bsi-26-1.maceio.lab` |
 | Domínio usado no FQDN | `grupo2-bsi-26-1.maceio.lab` |
 
 ### Tabela de FQDNs
 
-| Hostname | FQDN Completo | IP |
-|:---|:---|:---|
+| Hostname     | FQDN Completo                           | IP              |
+| :----------- | :-------------------------------------- | :-------------- |
 | `g2-pc1-vm1` | `g2-pc1-vm1.grupo2-bsi-26-1.maceio.lab` | `192.168.26.17` |
 | `g2-pc1-vm2` | `g2-pc1-vm2.grupo2-bsi-26-1.maceio.lab` | `192.168.26.18` |
 | `g2-pc2-vm1` | `g2-pc2-vm1.grupo2-bsi-26-1.maceio.lab` | `192.168.26.19` |
@@ -126,3 +126,5 @@ PING g2-pc1-vm2.grupo2-bsi-26-1.maceio.lab (192.168.26.18) 56(84) bytes of data.
 > Se o ping por nome falhar mas por IP funcionar, verifique se o `/etc/hosts` foi salvo corretamente em todas as VMs e se não há entradas duplicadas para o mesmo FQDN.
 
 > Evidências em [05-testes-validacao.md](05-testes-validacao.md).
+
+Proxima etapa: [04-ssh-e-testes.md](04-ssh-e-testes.md)
